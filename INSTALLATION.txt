@@ -1,0 +1,40 @@
+NAVAL NAVIGATION SYSTEM - INSTALLATION GUIDE
+--------------------------------------------
+
+SYSTEM REQUIREMENTS:
+- Python 3.8 or higher
+- pip (Python package manager)
+
+STEP 1: INSTALL PYTHON PACKAGES
+
+Open terminal or command prompt and run:
+
+pip install flask
+pip install folium
+pip install requests
+
+STEP 2: VERIFY INSTALLATION
+
+Run the following command:
+
+python --version
+
+STEP 3: RUN THE PROJECT
+
+Navigate to project folder and run:
+
+python app.py
+
+STEP 4: OPEN IN BROWSER
+
+Open your browser and go to:
+
+http://127.0.0.1:5000/
+
+TROUBLESHOOTING:
+- If "pip not found", install Python and enable "Add to PATH"
+- If port is busy, change port in app.py
+- If module error occurs, reinstall packages
+
+DONE!
+You have successfully run the Naval Navigation System.
